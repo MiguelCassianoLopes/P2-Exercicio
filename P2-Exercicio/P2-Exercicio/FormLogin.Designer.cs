@@ -1,6 +1,6 @@
 ﻿namespace P2_Exercicio
 {
-    partial class Form1
+    partial class FormLogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtUsuario = new TextBox();
+            txtSenha = new TextBox();
             lbUsuario = new Label();
             lbSenha = new Label();
             btLogin = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // txtUsuario
             // 
-            textBox1.Location = new Point(97, 80);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(145, 23);
-            textBox1.TabIndex = 0;
+            txtUsuario.Location = new Point(97, 80);
+            txtUsuario.Name = "txtUsuario";
+            txtUsuario.Size = new Size(145, 23);
+            txtUsuario.TabIndex = 0;
             // 
-            // textBox2
+            // txtSenha
             // 
-            textBox2.Location = new Point(97, 109);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(145, 23);
-            textBox2.TabIndex = 1;
+            txtSenha.Location = new Point(97, 109);
+            txtSenha.Name = "txtSenha";
+            txtSenha.Size = new Size(145, 23);
+            txtSenha.TabIndex = 1;
             // 
             // lbUsuario
             // 
@@ -80,7 +80,7 @@
             btLogin.UseVisualStyleBackColor = true;
             btLogin.Click += btLogin_Click;
             // 
-            // Form1
+            // FormLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -88,10 +88,10 @@
             Controls.Add(btLogin);
             Controls.Add(lbSenha);
             Controls.Add(lbUsuario);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Name = "Form1";
-            Text = "Form1";
+            Controls.Add(txtSenha);
+            Controls.Add(txtUsuario);
+            Name = "FormLogin";
+            Text = "Login";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -99,8 +99,8 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtUsuario;
+        private TextBox txtSenha;
         private Label lbUsuario;
         private Label lbSenha;
         private Button btLogin;
