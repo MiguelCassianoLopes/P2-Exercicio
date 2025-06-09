@@ -92,6 +92,7 @@
             btExcluir.TabIndex = 5;
             btExcluir.Text = "Excluir";
             btExcluir.UseVisualStyleBackColor = true;
+            btExcluir.Click += btExcluir_Click;
             // 
             // btAlterarSenha
             // 

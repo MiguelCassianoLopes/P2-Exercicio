@@ -118,6 +118,34 @@ namespace P2_Exercicio
 
             }
         }
+
+        private void btExcluir_Click(object sender, EventArgs e)
+        {
+            if (usuarioLogado == "ADMIN")
+            {
+                MessageBox.Show("Somente o administrador pode excluir usuários!");
+                return;
+            }
+
+            string usuario = txtUsuario.Text.Trim();
+
+            if (!File.Exists(caminhoCsv)) return;
+
+            var linhas = File.ReadAllLines(caminhoCsv).ToList();
+            var novaLista = linhas.Where(l => !l.StartsWith(usuario + ",")).ToList();
+
+            if (novaLista.Count == linhas.Count)
+            {
+                MessageBox.Show("Usuário não encontrado.");
+                return;
+            }
+
+            File.WriteAllLines(caminhoCsv, novaLista);
+            MessageBox.Show("Usuário excluído com sucesso.");
+            CarregarUsuarios();
+            txtUsuario.Clear();
+            txtSenha.Clear();
+        }
     }
 }
 
