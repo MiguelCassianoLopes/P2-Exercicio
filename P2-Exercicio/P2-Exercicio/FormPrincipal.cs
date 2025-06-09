@@ -21,5 +21,25 @@ namespace P2_Exercicio
         {
 
         }
+
+        private void tsClientes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsProdutos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsPedidos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsUsuarios_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
