@@ -35,7 +35,7 @@
             btCadastrar = new Button();
             btExcluir = new Button();
             btAlterarSenha = new Button();
-            listBox1 = new ListBox();
+            lstUsuarios = new ListBox();
             SuspendLayout();
             // 
             // lbUsuario
@@ -81,6 +81,7 @@
             btCadastrar.TabIndex = 4;
             btCadastrar.Text = "Cadastrar";
             btCadastrar.UseVisualStyleBackColor = true;
+            btCadastrar.Click += btCadastrar_Click;
             // 
             // btExcluir
             // 
@@ -102,20 +103,21 @@
             btAlterarSenha.Text = "Alterar Senha";
             btAlterarSenha.UseVisualStyleBackColor = true;
             // 
-            // listBox1
+            // lstUsuarios
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(277, 65);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(229, 289);
-            listBox1.TabIndex = 7;
+            lstUsuarios.FormattingEnabled = true;
+            lstUsuarios.Items.AddRange(new object[] { "Exibir Usuários" });
+            lstUsuarios.Location = new Point(277, 65);
+            lstUsuarios.Name = "lstUsuarios";
+            lstUsuarios.Size = new Size(229, 289);
+            lstUsuarios.TabIndex = 7;
             // 
             // FormUsuarios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(566, 450);
-            Controls.Add(listBox1);
+            Controls.Add(lstUsuarios);
             Controls.Add(btAlterarSenha);
             Controls.Add(btExcluir);
             Controls.Add(btCadastrar);
@@ -125,6 +127,7 @@
             Controls.Add(lbUsuario);
             Name = "FormUsuarios";
             Text = "FormUsuarios";
+            Load += FormUsuarios_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -138,6 +141,6 @@
         private Button btCadastrar;
         private Button btExcluir;
         private Button btAlterarSenha;
-        private ListBox listBox1;
+        private ListBox lstUsuarios;
     }
 }

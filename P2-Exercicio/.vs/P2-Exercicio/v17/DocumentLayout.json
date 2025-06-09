@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|c:\\users\\computador\\source\\repos\\p2-exercicio\\p2-exercicio\\p2-exercicio\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|c:\\users\\computador\\source\\repos\\p2-exercicio\\p2-exercicio\\p2-exercicio\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|solutionrelative:p2-exercicio\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|c:\\users\\computador\\source\\repos\\p2-exercicio\\p2-exercicio\\p2-exercicio\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|solutionrelative:p2-exercicio\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\p2-exercicio\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|solutionrelative:p2-exercicio\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,19 +46,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormUsuarios.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\P2-Exercicio\\FormUsuarios.cs",
-              "RelativeDocumentMoniker": "P2-Exercicio\\FormUsuarios.cs",
-              "ToolTip": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\P2-Exercicio\\FormUsuarios.cs [Projeto]",
-              "RelativeToolTip": "P2-Exercicio\\FormUsuarios.cs [Projeto]",
+              "DocumentIndex": 1,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\P2-Exercicio\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "P2-Exercicio\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\P2-Exercicio\\FormPrincipal.cs",
+              "RelativeToolTip": "P2-Exercicio\\FormPrincipal.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T05:04:15.936Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-06-09T05:13:09.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "FormUsuarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\P2-Exercicio\\FormUsuarios.cs",
+              "RelativeDocumentMoniker": "P2-Exercicio\\FormUsuarios.cs",
+              "ToolTip": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\P2-Exercicio\\FormUsuarios.cs [Design]",
+              "RelativeToolTip": "P2-Exercicio\\FormUsuarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T05:04:15.936Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\P2-Exercicio\\FormUsuarios.cs",
+              "RelativeDocumentMoniker": "P2-Exercicio\\FormUsuarios.cs",
+              "ToolTip": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\P2-Exercicio\\FormUsuarios.cs",
+              "RelativeToolTip": "P2-Exercicio\\FormUsuarios.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAwwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T05:09:34.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FormLogin.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\P2-Exercicio\\FormLogin.cs",
               "RelativeDocumentMoniker": "P2-Exercicio\\FormLogin.cs",
@@ -61,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FormLogin.cs",
               "DocumentMoniker": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\P2-Exercicio\\FormLogin.cs",
               "RelativeDocumentMoniker": "P2-Exercicio\\FormLogin.cs",
