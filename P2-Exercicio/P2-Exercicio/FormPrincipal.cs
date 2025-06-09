@@ -12,9 +12,14 @@ namespace P2_Exercicio
 {
     public partial class FormPrincipal : Form
     {
-        public FormPrincipal()
+        private string usuarioLogado;
+        
+        public FormPrincipal(string usuario)
         {
             InitializeComponent();
+            usuarioLogado = usuario;
+            tsUsuarios.Visible = usuario == "ADMIN";
+            
         }
 
         private void FormPrincipal_Load(object sender, EventArgs e)
@@ -24,22 +29,26 @@ namespace P2_Exercicio
 
         private void tsClientes_Click(object sender, EventArgs e)
         {
-
+            FormClientes clientes = new FormClientes();
+            clientes.Show();
         }
 
         private void tsProdutos_Click(object sender, EventArgs e)
         {
-
+            FormProdutos produtos = new FormProdutos();
+            produtos.Show();
         }
 
         private void tsPedidos_Click(object sender, EventArgs e)
         {
-
+            FormPedidos pedidos = new FormPedidos();
+            pedidos.Show();
         }
 
         private void tsUsuarios_Click(object sender, EventArgs e)
         {
-
+            FormUsuarios usuarios = new FormUsuarios();
+            usuarios.Show();
         }
     }
 }

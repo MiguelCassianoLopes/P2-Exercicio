@@ -16,3 +16,7 @@ C:\Users\Computador\source\repos\P2-Exercicio\P2-Exercicio\P2-Exercicio\obj\Debu
 C:\Users\Computador\source\repos\P2-Exercicio\P2-Exercicio\P2-Exercicio\obj\Debug\net9.0-windows\P2-Exercicio.pdb
 C:\Users\Computador\source\repos\P2-Exercicio\P2-Exercicio\P2-Exercicio\obj\Debug\net9.0-windows\P2-Exercicio.genruntimeconfig.cache
 C:\Users\Computador\source\repos\P2-Exercicio\P2-Exercicio\P2-Exercicio\obj\Debug\net9.0-windows\ref\P2-Exercicio.dll
+C:\Users\Computador\source\repos\P2-Exercicio\P2-Exercicio\P2-Exercicio\obj\Debug\net9.0-windows\P2_Exercicio.FormClientes.resources
+C:\Users\Computador\source\repos\P2-Exercicio\P2-Exercicio\P2-Exercicio\obj\Debug\net9.0-windows\P2_Exercicio.FormPedidos.resources
+C:\Users\Computador\source\repos\P2-Exercicio\P2-Exercicio\P2-Exercicio\obj\Debug\net9.0-windows\P2_Exercicio.FormProdutos.resources
+C:\Users\Computador\source\repos\P2-Exercicio\P2-Exercicio\P2-Exercicio\obj\Debug\net9.0-windows\P2_Exercicio.FormUsuarios.resources

@@ -42,7 +42,7 @@ namespace P2_Exercicio
         }
         private void AbrirPrincipal(string usuario)
         {
-            FormPrincipal principal = new FormPrincipal();
+            FormPrincipal principal = new FormPrincipal(usuario);
             principal.Show();
             this.Hide();
         }
