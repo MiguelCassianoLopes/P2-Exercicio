@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             txtNomeProduto = new TextBox();
-            textBox2 = new TextBox();
+            txtPrecoProduto = new TextBox();
             txtDescricao = new TextBox();
             lbProduto = new Label();
-            txtPrecoProduto = new Label();
+            lbPrecoProduto = new Label();
             lbDescricao = new Label();
             btSalvar = new Button();
             btExcluir = new Button();
@@ -46,12 +46,12 @@
             txtNomeProduto.Size = new Size(173, 23);
             txtNomeProduto.TabIndex = 0;
             // 
-            // textBox2
+            // txtPrecoProduto
             // 
-            textBox2.Location = new Point(120, 101);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(173, 23);
-            textBox2.TabIndex = 1;
+            txtPrecoProduto.Location = new Point(120, 101);
+            txtPrecoProduto.Name = "txtPrecoProduto";
+            txtPrecoProduto.Size = new Size(173, 23);
+            txtPrecoProduto.TabIndex = 1;
             // 
             // txtDescricao
             // 
@@ -70,15 +70,15 @@
             lbProduto.TabIndex = 3;
             lbProduto.Text = "Produto:";
             // 
-            // txtPrecoProduto
+            // lbPrecoProduto
             // 
-            txtPrecoProduto.AutoSize = true;
-            txtPrecoProduto.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            txtPrecoProduto.Location = new Point(72, 104);
-            txtPrecoProduto.Name = "txtPrecoProduto";
-            txtPrecoProduto.Size = new Size(42, 15);
-            txtPrecoProduto.TabIndex = 4;
-            txtPrecoProduto.Text = "Preço:";
+            lbPrecoProduto.AutoSize = true;
+            lbPrecoProduto.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbPrecoProduto.Location = new Point(72, 104);
+            lbPrecoProduto.Name = "lbPrecoProduto";
+            lbPrecoProduto.Size = new Size(42, 15);
+            lbPrecoProduto.TabIndex = 4;
+            lbPrecoProduto.Text = "Preço:";
             // 
             // lbDescricao
             // 
@@ -99,6 +99,7 @@
             btSalvar.TabIndex = 6;
             btSalvar.Text = "Salvar";
             btSalvar.UseVisualStyleBackColor = true;
+            btSalvar.Click += btSalvar_Click;
             // 
             // btExcluir
             // 
@@ -109,6 +110,7 @@
             btExcluir.TabIndex = 7;
             btExcluir.Text = "Excluir";
             btExcluir.UseVisualStyleBackColor = true;
+            btExcluir.Click += btExcluir_Click;
             // 
             // lstProdutos
             // 
@@ -128,10 +130,10 @@
             Controls.Add(btExcluir);
             Controls.Add(btSalvar);
             Controls.Add(lbDescricao);
-            Controls.Add(txtPrecoProduto);
+            Controls.Add(lbPrecoProduto);
             Controls.Add(lbProduto);
             Controls.Add(txtDescricao);
-            Controls.Add(textBox2);
+            Controls.Add(txtPrecoProduto);
             Controls.Add(txtNomeProduto);
             Name = "FormProdutos";
             Text = "FormProdutos";
@@ -142,10 +144,10 @@
         #endregion
 
         private TextBox txtNomeProduto;
-        private TextBox textBox2;
+        private TextBox txtPrecoProduto;
         private TextBox txtDescricao;
         private Label lbProduto;
-        private Label txtPrecoProduto;
+        private Label lbPrecoProduto;
         private Label lbDescricao;
         private Button btSalvar;
         private Button btExcluir;

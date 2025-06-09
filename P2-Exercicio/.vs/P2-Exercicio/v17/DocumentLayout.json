@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|solutionrelative:p2-exercicio\\formprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|c:\\users\\computador\\source\\repos\\p2-exercicio\\p2-exercicio\\p2-exercicio\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\p2-exercicio\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|solutionrelative:p2-exercicio\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|c:\\users\\computador\\source\\repos\\p2-exercicio\\p2-exercicio\\p2-exercicio\\formprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F9B6ED-86DC-44C5-8037-CC1429A68F21}|P2-Exercicio\\P2-Exercicio.csproj|solutionrelative:p2-exercicio\\formprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +35,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\P2-Exercicio\\FormProdutos.cs",
+              "RelativeDocumentMoniker": "P2-Exercicio\\FormProdutos.cs",
+              "ToolTip": "C:\\Users\\Computador\\source\\repos\\P2-Exercicio\\P2-Exercicio\\P2-Exercicio\\FormProdutos.cs",
+              "RelativeToolTip": "P2-Exercicio\\FormProdutos.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T05:30:52.976Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
