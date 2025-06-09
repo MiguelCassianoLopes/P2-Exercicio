@@ -43,7 +43,7 @@ namespace P2_Exercicio
                 {
                     var dados = linha.Split(';');
                     if (dados.Length >= 1)
-                    lstUsuarios.Items.Add(dados[0]);
+                        lstUsuarios.Items.Add(dados[0]);
                 }
             }
         }
@@ -76,6 +76,47 @@ namespace P2_Exercicio
             CarregarUsuarios();
             txtUsuario.Clear();
             txtSenha.Clear();
+        }
+
+        private void btAlterarSenha_Click(object sender, EventArgs e)
+        {
+            string novoUsuario = txtUsuario.Text.Trim();
+            string novaSenha = txtSenha.Text.Trim();
+
+            if (usuarioLogado == "ADMIN" && novoUsuario == usuarioLogado)
+            {
+                MessageBox.Show("Somente o administrador pode alterar senhas de outros usuários!");
+                return;
+            }
+
+            if (!File.Exists(caminhoCsv)) return;
+
+            var linhas = File.ReadAllLines(caminhoCsv).ToList();
+            bool alterado = false;
+
+            for (int i = 0; i < linhas.Count; i++)
+            {
+                var partes = linhas[i].Split(',');
+                if (partes[0] == novoUsuario)
+                {
+                    linhas[i] = $"{novoUsuario},{novaSenha}";
+                    alterado = true;
+                    break;
+                }
+            }
+
+            if (alterado)
+            {
+                File.WriteAllLines(caminhoCsv, linhas);
+                MessageBox.Show("Senha alterada com sucesso.");
+            }
+
+            else
+
+            {
+                MessageBox.Show("Usuário não encontrado!");
+
+            }
         }
     }
 }

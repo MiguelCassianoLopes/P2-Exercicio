@@ -102,6 +102,7 @@
             btAlterarSenha.TabIndex = 6;
             btAlterarSenha.Text = "Alterar Senha";
             btAlterarSenha.UseVisualStyleBackColor = true;
+            btAlterarSenha.Click += btAlterarSenha_Click;
             // 
             // lstUsuarios
             // 
