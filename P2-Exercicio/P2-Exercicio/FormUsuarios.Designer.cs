@@ -28,12 +28,116 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FormUsuarios";
+            lbUsuario = new Label();
+            lbSenha = new Label();
+            txtUsuario = new TextBox();
+            txtSenha = new TextBox();
+            btCadastrar = new Button();
+            btExcluir = new Button();
+            btAlterarSenha = new Button();
+            listBox1 = new ListBox();
+            SuspendLayout();
+            // 
+            // lbUsuario
+            // 
+            lbUsuario.AutoSize = true;
+            lbUsuario.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbUsuario.Location = new Point(3, 68);
+            lbUsuario.Name = "lbUsuario";
+            lbUsuario.Size = new Size(52, 15);
+            lbUsuario.TabIndex = 0;
+            lbUsuario.Text = "Usuário:";
+            // 
+            // lbSenha
+            // 
+            lbSenha.AutoSize = true;
+            lbSenha.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbSenha.Location = new Point(11, 97);
+            lbSenha.Name = "lbSenha";
+            lbSenha.Size = new Size(44, 15);
+            lbSenha.TabIndex = 1;
+            lbSenha.Text = "Senha:";
+            // 
+            // txtUsuario
+            // 
+            txtUsuario.Location = new Point(61, 65);
+            txtUsuario.Name = "txtUsuario";
+            txtUsuario.Size = new Size(198, 23);
+            txtUsuario.TabIndex = 2;
+            // 
+            // txtSenha
+            // 
+            txtSenha.Location = new Point(61, 94);
+            txtSenha.Name = "txtSenha";
+            txtSenha.Size = new Size(198, 23);
+            txtSenha.TabIndex = 3;
+            // 
+            // btCadastrar
+            // 
+            btCadastrar.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btCadastrar.Location = new Point(61, 123);
+            btCadastrar.Name = "btCadastrar";
+            btCadastrar.Size = new Size(75, 23);
+            btCadastrar.TabIndex = 4;
+            btCadastrar.Text = "Cadastrar";
+            btCadastrar.UseVisualStyleBackColor = true;
+            // 
+            // btExcluir
+            // 
+            btExcluir.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btExcluir.Location = new Point(184, 123);
+            btExcluir.Name = "btExcluir";
+            btExcluir.Size = new Size(75, 23);
+            btExcluir.TabIndex = 5;
+            btExcluir.Text = "Excluir";
+            btExcluir.UseVisualStyleBackColor = true;
+            // 
+            // btAlterarSenha
+            // 
+            btAlterarSenha.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btAlterarSenha.Location = new Point(108, 152);
+            btAlterarSenha.Name = "btAlterarSenha";
+            btAlterarSenha.Size = new Size(107, 23);
+            btAlterarSenha.TabIndex = 6;
+            btAlterarSenha.Text = "Alterar Senha";
+            btAlterarSenha.UseVisualStyleBackColor = true;
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.Location = new Point(277, 65);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(229, 289);
+            listBox1.TabIndex = 7;
+            // 
+            // FormUsuarios
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(566, 450);
+            Controls.Add(listBox1);
+            Controls.Add(btAlterarSenha);
+            Controls.Add(btExcluir);
+            Controls.Add(btCadastrar);
+            Controls.Add(txtSenha);
+            Controls.Add(txtUsuario);
+            Controls.Add(lbSenha);
+            Controls.Add(lbUsuario);
+            Name = "FormUsuarios";
+            Text = "FormUsuarios";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lbUsuario;
+        private Label lbSenha;
+        private TextBox txtUsuario;
+        private TextBox txtSenha;
+        private Button btCadastrar;
+        private Button btExcluir;
+        private Button btAlterarSenha;
+        private ListBox listBox1;
     }
 }
